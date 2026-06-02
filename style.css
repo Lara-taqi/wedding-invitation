@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;600;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;500&display=swap');
+.extra-slide {
+  max-height: 0;      
+  opacity: 0;        
+  overflow: hidden;   
+  transition: all 0.8s ease-in-out; 
+  background-color: #c1b7a0;
+  text-align: center;
+}
+
+.extra-slide.show {
+  max-height: 1000px; 
+  opacity: 1;       
+}
+
+
+.carousel-item {
+  position: relative;
+}
+
+#show-more-btn {
+  position: absolute;
+  padding: 10px 25px;
+  background-color: transparent;
+  border: none;
+  color: rgba(255, 255, 255,0.1);
+  cursor: pointer;
+  font-size: 16px;
+  bottom: 15%;            
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  transition: background 0.3s;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+
+}
+.Invitation h3{
+    font-family: 'AMIRI', sans-serif;
+    padding: 50px;
+    text-align: center;
+
+}
+.Invitation h4,h5{
+    font-family: 'Aref Ruqaa';
+}
+.wedname{
+    padding: 10px;
+    font-family:'El Messiri' ;
+}
+.wedname::after{
+    content: "";
+    display: block;
+    border-bottom: 2px solid rgba(56, 45, 26,0.3);
+    width: 130px;
+    margin: 10px auto 0;
+
+}
+.wedimg{
+    width: 150px;
+    height: 150px;
+    margin-left: 250px;
+
+}
+.Location h3{
+    font-family:"Playfair Display";
+    padding: 35px;
+    
+}
+.Location h4{
+   font-family: 'AMIRI', sans-serif;
+}
+.closing-msg {
+    font-family: 'Aref Ruqaa', serif; /* أو خط 'Tajawal' إذا أردتيه ناعماً ومودرن */
+    font-size: 20px;
+    color: #52432a; /* لون بني دافئ متناسق مع الخلفية */
+    margin: 30px auto 10px;
+    padding: 0 20px;
+    line-height: 1.6;
+    font-style: italic; /* إمالة النص تعطي طابعاً جمالياً للمسجات الختامية */
+}
